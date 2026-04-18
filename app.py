@@ -25,7 +25,7 @@ df['Utilization_Rate'] = (df['Grand Total - Total Amount Utilised'] /
                           df['Grand Total - Total Amount Sanctioned']) * 100
 
 
-min_sanction = st.sidebar.slider("Minimum Sanctioned Amount (Cr)", 0, 100, 5)
+min_sanction = st.sidebar.slider("Minimum Sanctioned Amount (Cr)", 0, 50, 5)
 filtered_df = df[df['Grand Total - Total Amount Sanctioned'] > min_sanction]
 
 
