@@ -17,18 +17,18 @@ st.sidebar.markdown("---")
 st.markdown(
     "Analyzing budget utilization to identify administrative bottlenecks.")
 
-# Load Data
+
 df = pd.read_csv('data.csv', encoding='unicode_escape')
 df['Grand Total - Total Amount Utilised'] = df['Grand Total - Total Amount Utilised'].fillna(
     0)
 df['Utilization_Rate'] = (df['Grand Total - Total Amount Utilised'] /
                           df['Grand Total - Total Amount Sanctioned']) * 100
 
-# Sidebar Filter
+
 min_sanction = st.sidebar.slider("Minimum Sanctioned Amount (Cr)", 0, 100, 5)
 filtered_df = df[df['Grand Total - Total Amount Sanctioned'] > min_sanction]
 
-# Visualization
+
 fig = px.bar(filtered_df.sort_values('Utilization_Rate').head(10),
              x='District', y='Utilization_Rate',
              title="Top 10 Districts Needing Attention (Lowest Utilization)",
