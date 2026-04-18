@@ -34,6 +34,3 @@ During the development of this tracker, the following was observed:
 ## 👤 Author
 **ANURAG TEOTIA** 2nd Year B.Tech, Computer Science & Engineering **I.T.S ENGINNERING COLLEGE , GREATER NOIDA**
 
-🔗 **Connect with me:**
-- [LinkedIn](Your-LinkedIn-Link-Here)
-- [Portfolio/GitHub]()
