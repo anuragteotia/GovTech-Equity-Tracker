@@ -11,8 +11,6 @@ An end-to-end Data Orchestration & Analytics Dashboard engineered to evaluate th
 
 ## 📸 Dashboard Preview
 
-<!-- Replace the image link below with your actual screenshot path or URL -->
-
 <img width="1888" height="1028" alt="Screenshot 2026-08-17 002602" src="https://github.com/user-attachments/assets/bbc644f7-6f65-43d9-a414-7d6808799179" />
 
 *Figure 1: Real-time interactive dashboard featuring dynamic expenditure filtering, performance rankings, and district utilization analytics.*
@@ -60,15 +58,3 @@ Built for **Public Administrators, Policy Researchers, and Data Analysts**, this
    ```bash
    git clone [https://github.com/anuragteotia/GovTech-Equity-Tracker.git](https://github.com/anuragteotia/GovTech-Equity-Tracker.git)
    cd GovTech-Equity-Tracker
-
-## 👤 Author
-Anurag Teotia
-
-B.Tech in Computer Science & Engineering
-ITS Engineering College, Greater Noida
-
-GitHub: github.com/anuragteotia
-LinkedIn: linkedin.com/in/anurag-teotia
-
-
-   
