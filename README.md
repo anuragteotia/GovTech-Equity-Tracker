@@ -64,7 +64,9 @@ Built for **Public Administrators, Policy Researchers, and Data Analysts**, this
 Anurag Teotia
 
 B.Tech in Computer Science & Engineering
+
 ITS Engineering College, Greater Noida
 
 GitHub: github.com/anuragteotia
+
 LinkedIn: linkedin.com/in/anurag-teotia
